@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stile.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap" rel="stylesheet">
+
+    <title> INTERNAZIONALE DI MILANO </title>
+
+    <script type="text/javascript" id="cookiebanner" src="https://cdn.jsdelivr.net/gh/dobarkod/cookie-banner@1.2.2/dist/cookiebanner.min.js"></script>
+
+</head>
+
+
+<body>
+    
+    <h1 align="center" > INTERNAZIONALE FC </h1>
+    <p style="color: gold;font-size:x-large;" align="center">
+         Storie di campioni, trofei, passione 
+            <br>
+            
+        <img id="immagineMusica" alt="Immagine Musica" src="https://intermilan.bynder.com/transform/24fc26bc-60ca-40ab-9e5b-7ae6eadec299/INTER_X_NIKE_MINISITO_COVER_02?quality=100&io=transform:fill,width:1600,height:900&format=webp" align="center" height="500" >   
+        <audio id="audio" src="onlymp3.to - Inno Inter PAZZA INTER AMALA TESTO-PDztCvdsv5g-192k-1697964042.mp3"s></audio> 
+        
+   
+    </p>
+     <img id="click" src="./images/click-here-arrow-icon-4.png" height="200">
+
+
+    <ul align="center">
+        
+        <li><a href="palmares.html"   > Palmares</a> </li>
+        <li><a href="highlights.html" > Highlights dei Campioni </a></li>
+    </ul> 
+    <br>
+    <p align="center" > ULTIMI RISULTATI  </p>
+    <div align="center" >
+    <iframe seamless height="500" width="1300"src="https://www.livescore.it/calcio/italia/squadre/inter/   " align="middle"></iframe>  
+    </div>
+
+    <script src="https://www.gdprset.it/widget/gdpr-it-1.js" type="text/javascript"></script>   
+
+
+    <script>
+        function gestisciClic() {
+            var audio = document.getElementById("audio"); 
+            if (audio.paused) {
+                audio.currentTime = 0;
+                audio.play(); 
+            } else {
+                audio.pause(); 
+            }
+        }
+
+        
+        var immagineMusica = document.getElementById("immagineMusica");
+
+        immagineMusica.addEventListener("click", gestisciClic);
+    </script>
+
+<script src="https://www.gdprset.it/widget/gdpr-it-1.js" type="text/javascript"></script>
+
+</body>
+</html>

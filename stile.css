@@ -1,0 +1,102 @@
+body{
+    
+    background: linear-gradient(black,#1a1832,#1a1878);
+    background-attachment: fixed;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+h1{
+    
+    background-color:#001ea0 ; 
+    color: antiquewhite;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p{
+    background: linear-gradient(#0138a5,#023dab,#012e93);
+    color: antiquewhite;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+ul{
+    background: linear-gradient(#0138a5,#023dab,#012e93);
+    color: antiquewhite;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+li{
+    color: antiquewhite;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: x-large;
+}
+table{
+    background-color:#023dab;
+    color: antiquewhite;
+}
+th{
+    font-size: larger;
+}
+
+tr{
+    background-color:#001ea0
+}
+div{
+    background: linear-gradient(#0138a5,#023dab,#012e93);
+    color: antiquewhite;}
+
+    
+
+
+#return{
+    font-size: medium;
+    padding-left: 2%;
+    margin-right:auto;
+}
+
+.immaginiTrofei{
+    background:transparent;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#i1{
+    margin: auto;
+}
+
+#i2{
+    margin: auto;
+}
+#i3{
+    margin: auto;
+}
+
+a:link{
+    color: antiquewhite;
+}
+a:visited{
+    color: antiquewhite;
+}
+#immagineMusica{
+    cursor: pointer;
+}
+#click{
+    position: absolute;
+    top: 250px;
+    left: 50px;
+}
+#video{
+    height: 450px;
+    position:static;
+    margin-right: auto;
+    margin-left: 3%;
+}
+#foto{
+    height: 350;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    margin-right: 3%;
+}
+
+.divImmagini{
+    width:auto;
+    height: fit-content;
+}
